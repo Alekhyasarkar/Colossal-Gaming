@@ -1,0 +1,231 @@
+body {
+  font-family: sans-serif;
+}
+h1{
+  font-family: 'Playfair Display SC', serif;
+  padding-bottom: 5%;
+}
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 4%;
+}
+h4{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+form input {
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    color: #6b6b6b;
+    border: none;
+    border-bottom: 1px solid #061da4;
+    width: 100%;
+    background-color: transparent;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1.7rem;
+}
+
+.fa-space {
+  margin-left: 5%;
+  color: #6f9a37;
+}
+
+.nav-item {
+  font-size: 1.4rem;
+  padding: 0 20px;
+}
+
+.c-olor {
+  color: #fff;
+}
+
+.c-olor:hover {
+  color: red;
+}
+
+/* carousel_section or testimonial_section */
+.carousel-caption {
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 20%;
+  line-height: 1.5;
+}
+
+/* FEATURE-SECTION */
+#feature {
+  padding-top: 5%;
+  margin: 0 5%;
+}
+
+.feature-heading {
+  padding-bottom: 2%;
+  font-size: 2rem;
+  line-height: 1;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.feature-box {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 4%;
+}
+
+.feature-image {
+  border-radius: 15%;
+  padding-left: 7%;
+  transition: transform .2s;
+}
+
+.feature-image:hover {
+  transform: scale(0.9);
+}
+
+/* buy-section */
+#buy-sec {
+  padding-top: 20px;
+}
+
+.xbox-image {
+  margin-left: 85px;
+  padding-bottom: 4%;
+}
+
+.card {
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+}
+
+.card button {
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* Responsive-section */
+@media (max-width:1030px) {
+  #buy-sec {
+    text-align: center;
+  }
+
+  .xbox-image {
+    margin-left: 115px;
+  }
+
+  .feature-heading {
+    margin: 0 auto;
+  }
+
+  .xbox-image {
+    margin: 0 auto;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    padding: 7%;
+    bottom: 50px;
+  }
+  .faaa-style{
+    position: relative;
+    right: 35px;
+
+  }
+  .clo-ssal{
+    position: relative;
+    right: 46px;
+  }
+
+}
+
+@media (max-width:580px){
+  .position{
+    position: relative;
+    left: -50px;
+  }
+  .img-md{
+    position: relative;
+    left: 30px;
+  }
+  .clo-ssal{
+    position: relative;
+    right: 50px;
+  }
+}
+
+
+
+/* blue/red-sec */
+.bleed-blue {
+  color: blue;
+}
+
+/* BANNER */
+.banner{
+  text-align: center;
+  padding: 3% 12%;
+}
+
+
+
+
+
+/* FOOTER-SECTION */
+.style-type {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: left;
+  margin-left: -35px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #000;
+  padding: 4% 0 1% 13%;
+  color: #fff;
+  margin-top: 2%;
+}
+.color-property{
+  padding-bottom: 10px;
+}
+.color-property a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.i-pad {
+  margin: 0 12px;
+  padding-bottom: 20px;
+  color: #fff;
+
+}
+
+.faaa-style {
+  margin-left: 36%;
+}
+
+.clo-ssal{
+margin-left: 35%;
+}
